@@ -1,4 +1,5 @@
-
+#include <stdio.h>
+#define MAX 1000
 /* Recebe um número inteiro n >= 0 e um vetor v de números inteiros
 com n elementos e rearranja o vetor v de modo que fique crescente */
 
