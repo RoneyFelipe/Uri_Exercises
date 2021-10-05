@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define MAX 1000
+
 /* Recebe os vetores crescentes v[p..q-1] e v[q..r-1]
 e rearranja v[p..r-1] em ordem crescente */
 
