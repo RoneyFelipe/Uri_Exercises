@@ -188,7 +188,8 @@ int main(void) {
 
                 array_de_capivaras[contador].ultrapass++;
 
-                /*A capivara que ultrapassou assume a posição da que foi ultrapassada e a ultrapassada assume a da que ultrapassou*/
+                /*A capivara que ultrapassou assume a posição da que foi ultrapassada e a ultrapassada assume a*/
+                /*posição da que ultrapassou*/
 
                 troca(&array_de_capivaras[contador], &array_de_capivaras[contador - 1]);
 
