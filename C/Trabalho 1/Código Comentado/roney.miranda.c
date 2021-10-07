@@ -12,7 +12,7 @@
 typedef struct {
     int numero; /* Número da capivara = posição na largada */
     int ultrapass; /* Quantidade de ultrapassagens feitas */
-} capivara;
+} capivara; /*Nome do registro*/
 
 /*Função responsável por receber duas capivaras e inverter seus valores dentro do array_de_capivaras*/
 /*Ao fim, capivara_1 terá o valor de capivara_2 e capivara_2 terá o valor de capivara_1*/
@@ -239,6 +239,7 @@ int main(void) {
 
     }
 
+    /*Para finalizar o algoritmo, return 0*/
     return 0;
 
 }
