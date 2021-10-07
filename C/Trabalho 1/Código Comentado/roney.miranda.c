@@ -4,7 +4,7 @@
 *
 * Nome do(a) estudante: Roney Felipe de Oliveira Miranda
 * Trabalho 1
-* Professor(a): Diego Rubert
+* Professor(a): Diego Padilha Rubert
 *
 */
 
