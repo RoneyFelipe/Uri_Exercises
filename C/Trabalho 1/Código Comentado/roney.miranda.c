@@ -127,7 +127,7 @@ void mergesort(int p, int r, capivara *array_de_capivaras) {
     /*A variável q é incubida de dizer até qual posição a primeira parte do array_de_capivaras vai.*/
     /*Da mesma forma, determinar em qual posição inicia a segunda parte do array_de_capivaras.*/
     /*Com isso, a função intercala irá realizar a quebra do array_de_capivaras até que seja possível*/
-    /*analisar apenas duas ou três posições por vez. Lembrando que a função mergesorte é uma função recursiva,*/
+    /*analisar apenas duas ou três posições por vez. Lembrando que a função mergesort é uma função recursiva,*/
     /*então será repetida algumas vezes, sempre modificando o valor de q.*/
 
     int q;
