@@ -221,7 +221,7 @@ int main(void) {
     /*Pula uma linha entre a ordem que as capivaras chegaram e a ordem de classificação dentro da competição*/
     printf("\n");
 
-    /*Chama o método de ordenação, passando o p (0), r(total_de_capivaras) e o array_de_capivaras)*/
+    /*Chama o método de ordenação, passando o p (0), r(total_de_capivaras) e o array_de_capivaras*/
     mergesort(p, r, array_de_capivaras);
 
 
@@ -238,6 +238,8 @@ int main(void) {
         }
 
     }
+
+    return 0;
 
 }
 
