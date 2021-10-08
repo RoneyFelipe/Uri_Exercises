@@ -1,3 +1,4 @@
+/*Importanto a biblioteca padrão do C*/
 #include <stdio.h>
 
 /**************************************************
@@ -33,6 +34,9 @@ void intercala(int p, int q, int r, capivara *array_de_capivaras) {
 
     /*Vetor auxiliar para ordenação por intercalação,*/
     /*No final, ele será copiado inteiramente para o vetor de capivaras pois auxiliar_de_capivaras estará ordenado*/
+    /*Ele é declarado com r+1 posições porque r é o valor total de capivaras, contado a partir de 0.*/
+    /*Portanto, precisamos adicionar mais uma posição ao vetor, já que em C é necessário haver o '\0' como*/
+    /*última posição de todo vetor*/
     capivara auxiliar_de_capivaras[r+1];
 
     /*i recebe p, primeira posição do array_de_capiravas*/
@@ -149,6 +153,7 @@ void mergesort(int p, int r, capivara *array_de_capivaras) {
     }
 }
 
+/*Função principal*/
 int main(void) {
 
     /*Declaração das variáveis que irão receber o total de capivaras competindo e*/
