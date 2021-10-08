@@ -244,6 +244,8 @@ int main(void) {
 
     }
 
+    printf("\n"); /*Quebra de linha final*/
+
     /*Para finalizar o algoritmo, return 0*/
     return 0;
 
