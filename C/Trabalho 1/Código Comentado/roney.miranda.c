@@ -34,10 +34,8 @@ void intercala(int p, int q, int r, capivara *array_de_capivaras) {
 
     /*Vetor auxiliar para ordenação por intercalação,*/
     /*No final, ele será copiado inteiramente para o vetor de capivaras pois auxiliar_de_capivaras estará ordenado*/
-    /*Ele é declarado com r+1 posições porque r é o valor total de capivaras, contado a partir de 0.*/
-    /*Portanto, precisamos adicionar mais uma posição ao vetor, já que em C é necessário haver o '\0' como*/
-    /*última posição de todo vetor*/
-    capivara auxiliar_de_capivaras[r+1];
+    /*Ele é declarado com r posições porque r é o valor total de capivaras, contado a partir de 0.*/
+    capivara auxiliar_de_capivaras[r];
 
     /*i recebe p, primeira posição do array_de_capiravas*/
     i = p;
@@ -207,8 +205,7 @@ int main(void) {
     p = 0;
 
     /*Da mesma forma, r recebe o valor da última posição do array que será ordenado.*/
-    /*Nesse caso, total_de_capivaras - 1, porque um vetor sempre inicia da posição 0*/
-    r = total_de_capivaras - 1;
+    r = total_de_capivaras;
 
     /*Este laço realiza a exibição da ordem de chegada das capivaras, iniciando na posição 0, contador, e*/
     /*indo até total_de_capivaras que é o limite do array*/
