@@ -7,8 +7,8 @@ e rearranja v[p..r-1] em ordem crescente */
 /*Chamada na main: mergesort(0, tamanho do vetor, vetor)*/
 
 /*Crescente*/
-void intercala_crescente(int p, int q, int r, int v[MAX])
-{
+void intercala_crescente(int p, int q, int r, int v[MAX]) {
+
     int i, j, k, w[MAX];
     i = p;
     j = q;
@@ -42,8 +42,8 @@ void intercala_crescente(int p, int q, int r, int v[MAX])
 
 }
 
-void mergesort_crescente(int p, int r, int v[MAX])
-{
+void mergesort_crescente(int p, int r, int v[MAX]) {
+
     int q;
     if (p < r - 1) {
         q = (p + r) / 2;
