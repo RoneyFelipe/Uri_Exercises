@@ -52,15 +52,14 @@ int main (void) {
     for(int aux = 0; aux < n; aux++) {
 
         char palavra_recebida[MAX];
-         
-        scanf(" %[^\n]%*c", palavra_recebida)
-
         char palavra_final[MAX];
         int cont = 0, result;
+         
+        scanf(" %[^\n]%*c", palavra_recebida);
 
         for(int aux2 = 0; palavra_recebida[aux2] != '\0'; aux2++) {
 
-            if ((palavra_recebida[aux2] == '(') || (palavra_recebida[aux2] == ')')) {
+            if ((palavra_recebida[aux2] == '<') || (palavra_recebida[aux2] == '>')) {
                 palavra_final[cont] = palavra_recebida[aux2];
                 cont++;
             }
